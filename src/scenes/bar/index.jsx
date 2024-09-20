@@ -5,11 +5,10 @@ import BarChart from "../../components/BarChart";
 const Bar = () => {
   return (
     <Box m="20px">
-      <Header title="Bar Chart" subTitle="Simple Bar Chart">
-        <Box height="75vh">
-          <BarChart />
-        </Box>
-      </Header>
+      <Header title="Bar Chart" subTitle="Simple Bar Chart"></Header>
+      <Box height="75vh">
+        <BarChart />
+      </Box>
     </Box>
   );
 };
