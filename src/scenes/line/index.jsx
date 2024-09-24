@@ -2,7 +2,7 @@ import { Box } from "@mui/material";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 
-const Pie = () => {
+const Line = () => {
   return (
     <Box m="20px">
       <Header title="Line Chart" subTitle="Simple Line Chart"></Header>
@@ -13,4 +13,4 @@ const Pie = () => {
   );
 };
 
-export default Pie;
+export default Line;
